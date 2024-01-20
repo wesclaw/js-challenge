@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 .container{
   display: flex;
   flex-direction: column;
@@ -22,10 +26,15 @@ input{
   border: 10px solid rgba(0, 0, 0, 0.459);
   display: flex;
   flex-wrap: wrap;
+  min-height: 50px;
 }
 
 .box{
   width: 40px;
   height: 40px;
   border: 1px solid lime;
+}
+
+.red-box{
+  background-color: red;
 }
